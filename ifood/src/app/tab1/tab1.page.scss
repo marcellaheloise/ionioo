@@ -1,0 +1,25 @@
+
+ion-col {
+    width: 40%; /* Cada card ocupará metade da largura da tela */
+  }
+  
+  /* Altera o tamanho dos cards dentro das colunas */
+  ion-card {
+    width: 185px; /* Define a largura desejada */
+    height: 80px; /* Define a altura desejada */
+    margin: auto; /* Centraliza o card horizontalmente */
+    margin-bottom: 10px; /* Define a margem inferior desejada entre os cards */
+    
+  }
+  
+  /* Altera a cor do título do card */
+  ion-card-title {
+    color: rgb(254, 254, 254); /* Define a cor desejada */
+    font-size: 1.1em;
+   
+  }
+  
+  /* Altera a cor do conteúdo do card */
+  ion-card-content {
+    color: blue; /* Define a cor desejada */
+  }

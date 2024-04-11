@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Frases do dia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../assets/download.jpg" />
+    <ion-card-header>
+      <ion-card-title>Seu questionamento do dia:</ion-card-title>
+      <ion-card-subtitle>Estimule seu cérebro e seu autoconhecimento</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{getRandomPhrase()}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

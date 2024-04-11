@@ -1,0 +1,209 @@
+/* Scoped components require higher specificity to customize */
+ion-searchbar.custom {
+    --background: #f3f3f37c;
+    --color: #2b2020;
+    --placeholder-color: #211d1d;
+    --icon-color: #bb2424;
+    --clear-button-color: #f01919;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    --border-radius: 4px;
+  }
+  
+  ion-searchbar.ios.custom {
+    --cancel-button-color: #7e0505;
+  }
+  
+  ion-searchbar.md.custom {
+    --cancel-button-color: #7e0505;
+}  
+h5{
+    margin-left: 10px;
+    font-weight: bold;
+    text-shadow: #383434;
+}
+
+ion-col {
+    width: 40%; /* Cada card ocupará metade da largura da tela */
+  }
+  
+  /* Altera o tamanho dos cards dentro das colunas */
+  ion-card {
+    width: 185px; /* Define a largura desejada */
+    height: 80px; /* Define a altura desejada */
+    margin: auto; /* Centraliza o card horizontalmente */
+    margin-bottom: 10px; /* Define a margem inferior desejada entre os cards */
+    
+  }
+  
+  /* Altera a cor do título do card */
+  ion-card-title {
+    color: rgb(254, 254, 254); /* Define a cor desejada */
+    font-size: 1.1em;
+   
+  }
+  
+  /* Altera a cor do conteúdo do card */
+  ion-card-content {
+    color: blue; /* Define a cor desejada */
+  }
+  .Mercado {
+    background-color: rgb(60, 105, 27);
+  }
+  .Farmácia {
+    background-color: rgb(241, 116, 14);
+  }
+  .Bebidas {
+    background-color: rgb(241, 116, 14);
+  }
+  .Pet {
+    background-color: rgb(60, 105, 27);;
+  }
+  .Shopping {
+    background-color: rgb(246, 204, 68);;
+  }
+  .Açaí {
+    background-color: rgb(241, 116, 14);
+  }
+  .RestauranteSuper {
+    background-color: rgb(165, 29, 29);
+  }
+  .Doces {
+    background-color:  rgb(241, 116, 14);
+  }
+  
+  .Salgados {
+    background-color:  rgb(210, 29, 53);
+  }
+  
+  .Pastel {
+    background-color:  rgb(210, 29, 53);
+  }
+  .Sorvete {
+    background-color:  rgb(241, 116, 14);
+  }
+  .Padarias {
+    background-color:   rgb(210, 29, 53);
+  }
+  
+  .Cafeterias {
+    background-color:   rgb(255, 114, 171);
+  }
+  .crepes {
+    background-color: rgb(210, 29, 53);
+  }
+  .imagemercado {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: 5px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagebebidas {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: 1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imageshopping {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: 2px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imageRestau {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 60px; /* Define a largura da imagem */
+  height: 60px; /* Define a altura da imagem */
+  bottom: 1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagesaugados {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: 1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imageSorvete {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagefarmacia {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagePet {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imageacai {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 90px; /* Define a largura da imagem */
+  height: 70px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagedoce {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 70px; /* Define a largura da imagem */
+  height: 50px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagePastel {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+
+.imagepadaria {
+    position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+  width: 100px; /* Define a largura da imagem */
+  height: 80px; /* Define a altura da imagem */
+  bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+  right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+
+.imagecafete {
+  position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+width: 80px; /* Define a largura da imagem */
+height: 70px; /* Define a altura da imagem */
+bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+.imagecrep {
+  position: absolute; /* Define o posicionamento absoluto para que a imagem possa ser posicionada livremente dentro do card */
+width: 70px; /* Define a largura da imagem */
+height: 50px; /* Define a altura da imagem */
+bottom: -1px; /* Define a distância entre a imagem e a parte inferior do card */
+right: 10px; /* Define a distância entre a imagem e a borda direita do card */
+}
+
+
